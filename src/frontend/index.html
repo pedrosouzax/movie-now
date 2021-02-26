@@ -2,30 +2,39 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="./style/style.css">
+        <link href="./style/all.css" rel="stylesheet"><!--load all styles -->
+    
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" />
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
         <title>Movie Now</title>
     </head>
     <body>
         <header>
             <div class="container">
                 <div class="row">
-                    <div id="Logo" class="col-sm-6">
+                    <div id="Logo" class="col-10">
                         <h1>Movie Now</h1>
                     </div>
-                    <div class ="col-sm-6">
+                    <div class=" about-me col-2">
                         <h3>About me</h3>
                     </div>
                 </div>                
             </div>
-            
-            
         </header>
-    <section>
+    <section class="content">
         <div class="container">
-            <div class="row">
-                <div class="col-xl-6">
-                    <img src="./psd/aux_images/movie_template.jpg" width="300px"/>
+            <div class="row center">
+                <div class="col-6 center">
+                    <img class="movie-folder" src="../../psd/aux_images/movie_template.jpg" width="300px"/>
                 </div>
-                <div class="col-xl-6">
+                <div class="col-6 center">
                     <form name="choose_movie" id="entries" action="">
                         <select name="genre" id="genre">
                             <option value="" selected="selected">Select one genre</option>
@@ -42,7 +51,9 @@
         </div>
     </section>
     <footer>
-        <h3>Created by <a href="https://github.com/pedrosouzax">Pedro Souza</a></h3>
+        <div class="created">
+            <h6 class="center">Created by <a href="https://github.com/pedrosouzax">Pedro Souza</a></h6>
+        </div>
     </footer>
     </body>
 </html>

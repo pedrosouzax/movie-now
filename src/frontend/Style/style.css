@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Work Sans', sans-serif;
+}
+
+/**----BOOTSTRAP-----*/
+
+.center{
+	max-width: 1368px;
+	padding: 0 2%;
+	margin: 0 auto;
+}
+
+.relative{
+	position: relative !important;
+}
+
+.left{
+	float:left;
+}
+
+.right{
+	float: right;
+}
+
+.clear{
+	clear:both;
+}
+
+.p-4{
+	padding: 1.5rem!important;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/**-----ESTILIZAÇÃO SITE------*/
+
+/*HEADER*/
+header{
+    background:#496;
+
+}
+
+header .about-me{
+    position:relative;
+}
+
+.content{
+    background: black;
+	min-height: 89vh;
+}
+
+.content .movie-folder{
+	padding-top: 20%;
+}
+
+.content form{
+	padding-top: 50%;
+}
+footer{
+	background:#496;
+}
+
+footer .created{
+	position:relative;
+	display:grid;
+}

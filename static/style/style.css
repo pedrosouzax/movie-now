@@ -48,6 +48,8 @@ header{
 
 header .about-me{
     position:relative;
+	align-content:justify;
+	justify-content: end;
 }
 
 .content{
@@ -57,6 +59,7 @@ header .about-me{
 
 .content .movie-folder{
 	padding-top: 20%;
+	padding-left:10%;
 }
 
 .content form{

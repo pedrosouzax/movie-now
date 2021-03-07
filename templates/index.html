@@ -2,8 +2,8 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="./style/style.css">
-        <link href="./style/all.css" rel="stylesheet"><!--load all styles -->
+        <link rel="stylesheet" type="text/css" href="../static/style/style.css">
+        <link href="../static/style/all.css" rel="stylesheet"><!--load all styles -->
     
         <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
     
@@ -32,14 +32,31 @@
         <div class="container">
             <div class="row center">
                 <div class="col-6 center">
-                    <img class="movie-folder" src="../../psd/aux_images/movie_template.jpg" width="300px"/>
+                    <img class="movie-folder" src="../static/img/movie_template.jpg" width="320px"/>
                 </div>
                 <div class="col-6 center">
                     <form name="choose_movie" id="entries" action="">
                         <select name="genre" id="genre">
-                            <option value="" selected="selected">Select one genre</option>
+                            <option value="Action" selected="">Action</option>
+                            <option value="Comedy" selected="">Comedy</option>
+                            <option value="Drama" selected="">Drama</option>
+                            <option value="Fantasy" selected="">Fantasy</option>
+                            <option value="Horror" selected="">Horror</option>
+                            <option value="Mystery" selected="">Mystery</option>
+                            <option value="Romance" selected="">Romance</option>
+                            <option value="" selected="">Select the genre</option>
                         </select>
                         <select name="rating" id="rating">
+                            <option value="1" selected="selected">1.0</option>
+                            <option value="2" selected="selected">2.0</option>
+                            <option value="3" selected="selected">3.0</option>
+                            <option value="4" selected="selected">4.0</option>
+                            <option value="5" selected="selected">5.0</option>
+                            <option value="6" selected="selected">6.0</option>
+                            <option value="7" selected="selected">7.0</option>
+                            <option value="8" selected="selected">8.0</option>
+                            <option value="9" selected="selected">9.0</option>
+                            <option value="10" selected="selected">10.0</option>
                             <option value="" selected="selected">Select the min rating</option>
                         </select>
                         <input type="text" name="actors" id="actors" placeholder="Type your favs actors">

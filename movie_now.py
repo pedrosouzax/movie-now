@@ -1,6 +1,7 @@
 from  flask import Flask
 from flask import render_template
 from flask import request
+import search_movies as sm
 
 app = Flask(__name__)
 
@@ -13,5 +14,6 @@ def searching():
     actors = request.args.get("actors")
     rating = request.args.get("rating")
     genre = request.args.get("genre")
-    print(genre,rating,actors)
+    print(sm.searching())
+    print(actors, rating, genre)
     return render_template("index.html")

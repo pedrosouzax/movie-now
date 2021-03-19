@@ -14,6 +14,6 @@ def searching():
     actors = request.args.get("actors")
     rating = request.args.get("rating")
     genre = request.args.get("genre")
-    print(sm.searching())
+    print(sm.searching(genre=genre.lower(),rating=rating))
     print(actors, rating, genre)
     return render_template("index.html")

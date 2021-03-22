@@ -1,4 +1,4 @@
-from  flask import Flask
+from flask import Flask
 from flask import render_template
 from flask import request
 import search_movies as sm
@@ -14,6 +14,9 @@ def searching():
     actors = request.args.get("actors")
     rating = request.args.get("rating")
     genre = request.args.get("genre")
-    print(sm.searching(genre=genre.lower(),rating=rating))
+    content = sm.searching(genre=genre.lower(),rating=rating)
     print(actors, rating, genre)
-    return render_template("index.html")
+    return render_template("searching.html",content=content)
+
+if __name__ == "__main__":
+    app.run(debug=True)

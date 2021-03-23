@@ -15,8 +15,10 @@ def searching():
     rating = request.args.get("rating")
     genre = request.args.get("genre")
     content = sm.searching(genre=genre.lower(),rating=rating)
-    print(actors, rating, genre)
-    return render_template("searching.html",content=content)
+    # movie, rating, img = 
+    movie = sm.get_movie(content)
+    # print(actors, rating, genre)
+    return render_template("searching.html",movie=movie)
 
 if __name__ == "__main__":
     app.run(debug=True)

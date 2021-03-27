@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="../static/style/style.css">
+        <link rel="stylesheet" type="text/css" href="../static/style/style_searching.css">
         <link href="../static/style/all.css" rel="stylesheet"><!--load all styles -->
     
         <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
@@ -17,15 +17,36 @@
     </head>
     <body>
         <header>
-            <p>
-                Movie: {{movie}}
-            </p>
-            <p>
-                <!-- Rating: {{rating}} -->
-            </p>
-            <p>
-                <!-- Img: {{img}} -->
-            </p>
+            <div class="container">
+                <div class="row">
+                    <div id="Logo" class="col-12">
+                        <h1>Movie Now</h1>
+                    </div>
+                </div>                
+            </div>
         </header>
+        <section>
+            <div class="container">
+                <div class="row">
+                    {{title}}
+                </div>
+                <div class="row">
+                    <img src={{folder}}> 
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        Year: {{year}}
+                    </div>
+                    <div class="col-4">
+                        IMDb Rate: {{imdb}}
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="created">
+                <h6 class="center">Created by <a target="_blank" href="https://github.com/pedrosouzax">Pedro Souza</a></h6>
+            </div>
+        </footer>
     </body>
 </html>

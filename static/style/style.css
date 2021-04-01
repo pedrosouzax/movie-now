@@ -56,6 +56,9 @@ header .about-me{
 	justify-content: end;
 }
 
+
+/*BODY*/
+
 .content{
     background: black;
 	min-height: 89vh;
@@ -67,8 +70,35 @@ header .about-me{
 }
 
 .content form{
-	padding-top: 50%;
+	padding-top: 25%;
+	padding-left: 25%;	
 }
+
+.content select{
+	border-radius: 10px;
+	font-size: 20px;
+	color: black;
+	text-align: center;
+
+}
+
+.content input{
+	border-radius: 10px;
+	font-size: 25px;
+	background-color: #496;
+}
+
+.content input:hover{
+	background-color:rgb(170, 238, 197)
+}
+
+.chooser{
+	color:#496;
+	font-size: 25px;
+}
+
+
+
 footer{
 	background:#496;
 }

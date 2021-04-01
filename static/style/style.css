@@ -89,7 +89,9 @@ header .about-me{
 }
 
 .content input:hover{
-	background-color:rgb(170, 238, 197)
+	background-color:rgb(170, 238, 197);
+	cursor: pointer;
+	font-size: 35px;
 }
 
 .chooser{

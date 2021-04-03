@@ -23,14 +23,12 @@ You'll need:
 
 #Steps
 
-1.Install all the packages above
-2.Clone the repository
-3.Run the "movie_now.py": 
+- Install all the packages above
+- Clone the repository
+- Run the "movie_now.py": 
   * On windows
     > python movie_now.py
   * On Linux:
     > python3 movie_now.py
-
-
-5.Follow the intructions on terminal (Probably you will need open the local host on port 5000, Eg.: http://127.0.0.1:5000/)
-6.Try it!
+- Follow the intructions on terminal (Probably you will need open the local host on port 5000, Eg.: http://127.0.0.1:5000/)
+- Try it!

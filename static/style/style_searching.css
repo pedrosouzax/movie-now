@@ -2,7 +2,8 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Work Sans', sans-serif;
+	font-family: fantasy,'Work Sans', sans-serif;
+	
 }
 
 /**----BOOTSTRAP-----*/
@@ -29,6 +30,10 @@
 	clear:both;
 }
 
+.p-2{
+	padding: 0.75rem!important;
+}
+
 .p-4{
 	padding: 1.5rem!important;
 }
@@ -42,31 +47,34 @@
 
 /*HEADER*/
 header{
-    background:#496;
-
+    background: #7ED957;
 }
 
-header .about-me{
-    position:relative;
-	align-content:justify;
-	justify-content: end;
+/*BODY*/
+
+
+.main {
+	background-color: black;
 }
 
 .content{
-    background: black;
-	min-height: 89vh;
+    /* background: black; */
+	/* min-height: 89vh; */
+	justify-content: center;
+	color:white;
+
 }
 
-.content .movie-folder{
-	padding-top: 20%;
-	padding-left:10%;
+.content .year{
+	padding-right: 15px;
+}
+.content .imdb{
+	padding-left: 15px;
 }
 
-.content form{
-	padding-top: 50%;
-}
+/*FOOTER*/
 footer{
-	background:#496;
+	background: #7ED957;
 }
 
 footer .created{

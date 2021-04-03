@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Work Sans', sans-serif;
+	font-family: fantasy,'Work Sans', sans-serif;
 }
 
 /**----BOOTSTRAP-----*/
@@ -46,16 +46,8 @@
 
 /*HEADER*/
 header{
-    background:#496;
-
+    background: #7ED957;
 }
-
-header .about-me{
-    position:relative;
-	align-content:justify;
-	justify-content: end;
-}
-
 
 /*BODY*/
 
@@ -85,24 +77,24 @@ header .about-me{
 .content input{
 	border-radius: 10px;
 	font-size: 25px;
-	background-color: #496;
+	background-color: #008037;
 }
 
 .content input:hover{
-	background-color:rgb(170, 238, 197);
+	background-color:#7ED957;
 	cursor: pointer;
 	font-size: 35px;
 }
 
 .chooser{
-	color:#496;
+	color: #008037;
 	font-size: 25px;
 }
 
 
 
 footer{
-	background:#496;
+	background: #7ED957;
 }
 
 footer .created{

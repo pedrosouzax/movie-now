@@ -20,26 +20,26 @@
             <div class="container">
                 <div class="row">
                     <div id="Logo" class="col-12">
-                        <h1>Movie Now</h1>
+                        <img class="movie-logo" src="../static/img/movie_now.png" width="60px" />
                     </div>
                 </div>                
             </div>
         </header>
-        <section>
+        <section class="main">
             <div class="container">
-                <div class="row">
-                    {{title}}
+                <div class="row content title p-2">
+                    <h2>{{title}}</h2>
                 </div>
-                <div class="row">
+                <div class="row content folder">
                     <img src={{folder}}> 
                 </div>
-                <div class="row">
-                    <div class="col-4">
+                <div class="row content p-4">
+                    <div class="year">
                         Year: {{year}}
                     </div>
-                    <div class="col-4">
+                    <div class="imdb">
                         IMDb Rate: {{imdb}}
-                    </div>
+                    </div> 
                 </div>
             </div>
         </section>
